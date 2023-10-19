@@ -3,12 +3,12 @@
 1. Напишіть програму, яка визначає суму та добуток трьох чисел (наприклад, int, float), введених з клавіатури.
 """
 
-# num_1 = int(input('Введіть перше число: '))
-# num_2 = int(input('Введіть друге число: '))
-# num_3 = int(input('Введіть третє число: '))
-#
-# print('Сума трьох чісел =', num_1 + num_2 + num_3)
-# print('Добуток трьох чисел =', num_1 * num_2 * num_3)
+num_1 = int(input('Введіть перше число: '))
+num_2 = int(input('Введіть друге число: '))
+num_3 = int(input('Введіть третє число: '))
+
+print('Сума трьох чісел =', num_1 + num_2 + num_3)
+print('Добуток трьох чисел =', num_1 * num_2 * num_3)
 
 # Task_2
 
@@ -16,15 +16,15 @@
 Напишіть програму, що визначає максимальне з двох введених з клавіатури чисел.
 """
 
-# first_num = float(input('Введіть перше число: '))
-# second_num = float(input('Введіть друге число: '))
-#
-# if first_num > second_num:
-#     print('Перше число більше за друге')
-# elif first_num < second_num:
-#     print('Друге число більше ніж перше')
-# else:
-#     print('Числа рівні')
+first_num = float(input('Введіть перше число: '))
+second_num = float(input('Введіть друге число: '))
+
+if first_num > second_num:
+    print('Перше число більше за друге')
+elif first_num < second_num:
+    print('Друге число більше ніж перше')
+else:
+    print('Числа рівні')
 
 # Task_3
 
@@ -32,13 +32,13 @@
 Для рядка, введеного з клавіатури, вивести її другу половину у зворотному порядку.
 """
 
-# str_inp = input('Введіть рядок: ')
-#
-# str_len = len(str_inp)
-# mid_len = str_len // 2
-# sec_len_rev = str_inp[mid_len:][::-1]
-#
-# print('Друга половина у зворотньому порядку: ', sec_len_rev)
+str_inp = input('Введіть рядок: ')
+
+str_len = len(str_inp)
+mid_len = str_len // 2
+sec_len_rev = str_inp[mid_len:][::-1]
+
+print('Друга половина у зворотньому порядку: ', sec_len_rev)
 
 
 # Task_4
@@ -46,13 +46,13 @@
 """
 Для рядка, введеного з клавіатури, вивести її першу половину у зворотному порядку.
 """
-# str_inp = input('Введіть рядок: ')
-#
-# str_len = len(str_inp)
-# mid_len = str_len // 2
-# fir_len_rev = str_inp[:mid_len][::-1]
-#
-# print('Друга половина у зворотньому порядку: ', fir_len_rev)
+str_inp = input('Введіть рядок: ')
+
+str_len = len(str_inp)
+mid_len = str_len // 2
+fir_len_rev = str_inp[:mid_len][::-1]
+
+print('Друга половина у зворотньому порядку: ', fir_len_rev)
 
 # Task_5
 
@@ -71,12 +71,12 @@
 Для рядка, введеного з клавіатури, виведіть перші 5 символів 10 разів.
 """
 
-# str_int = input('Введіть рядок:')
-#
-# first_5_num = str_int[:5]
-# output = first_5_num + '\n'
-#
-# print(output * 10)
+str_int = input('Введіть рядок:')
+
+first_5_num = str_int[:5]
+output = first_5_num + '\n'
+
+print(output * 10)
 
 # Task_7
 
@@ -85,18 +85,18 @@
 + 1-а половина 2-го ряду + 1-я половина 1-го ряду.
 """
 
-# fir_str = input('Введіть перший рядок:')
-# sec_str = input('Введіть другий рядок:')
-#
-# len_fir_str = len(fir_str)
-# len_sec_str = len(sec_str)
-#
-#
-# mid_fir_str = len_fir_str // 2
-# mid_sec_str = len_sec_str // 2
-# mix_str = fir_str[mid_fir_str:] + sec_str[mid_sec_str:] + sec_str[:mid_sec_str] + fir_str[:mid_fir_str]
-#
-# print(mix_str)
+fir_str = input('Введіть перший рядок:')
+sec_str = input('Введіть другий рядок:')
+
+len_fir_str = len(fir_str)
+len_sec_str = len(sec_str)
+
+
+mid_fir_str = len_fir_str // 2
+mid_sec_str = len_sec_str // 2
+mix_str = fir_str[mid_fir_str:] + sec_str[mid_sec_str:] + sec_str[:mid_sec_str] + fir_str[:mid_fir_str]
+
+print(mix_str)
 
 # Task_8
 
@@ -105,13 +105,13 @@
 Я навчаюсь тільки на... Я... студент! і вивести отриману фразу на екран.
 """
 
-# fir_word = input('Який сьогодні день?: ')
-# sec_word = input('Які у вас оцінки?: ')
-# third_word = input('Ви гарний чи поганий студент?: ')
-#
-# result_phrase = f"Сьогодні {fir_word} день! Я навчаюсь тільки на {sec_word}. Я {third_word} студент!"
-#
-# print(result_phrase)
+fir_word = input('Який сьогодні день?: ')
+sec_word = input('Які у вас оцінки?: ')
+third_word = input('Ви гарний чи поганий студент?: ')
+
+result_phrase = f"Сьогодні {fir_word} день! Я навчаюсь тільки на {sec_word}. Я {third_word} студент!"
+
+print(result_phrase)
 
 # Task_9
 
@@ -119,15 +119,15 @@
 Напишіть код, який за введеною датою у форматі дд мм рррр за допомогою зрізів виведе окремо день, місяць та рік
 """
 
-# date_input = input('Введіть дату у форматі дд мм рррр: ')
-#
-# day = date_input[:2]
-# month = date_input[2:4]
-# year = date_input[4:]
-#
-# print('Пень: ', day)
-# print('Місяць: ', month)
-# print('Рік: ', year)
+date_input = input('Введіть дату у форматі дд мм рррр: ')
+
+day = date_input[:2]
+month = date_input[2:4]
+year = date_input[4:]
+
+print('Пень: ', day)
+print('Місяць: ', month)
+print('Рік: ', year)
 
 # Task_10
 
@@ -135,11 +135,11 @@
 Напишіть код, який у введеному рядку за допомогою зрізів замінює перші 7 символів на «Привіт,»
 """
 
-# str_input = input('Введіть рядок: ')
-#
-# modif_str = 'Привіт,' + str_input[7:]
-#
-# print('Змінений рядок: ', modif_str)
+str_input = input('Введіть рядок: ')
+
+modif_str = 'Привіт,' + str_input[7:]
+
+print('Змінений рядок: ', modif_str)
 
 # Task_11
 
@@ -147,9 +147,9 @@
 Напишіть код, який до введеного рядка додає «Здрастуйте!» на початок рядка та «До побачення!» у кінець рядка
 """
 
-# str_input = input('Введіть рядок: ')
-#
-# print('Здрастуйте! ' + str_input + ' До побачення!' )
+str_input = input('Введіть рядок: ')
+
+print('Здрастуйте! ' + str_input + ' До побачення!' )
 
 
 # Task_12
@@ -158,12 +158,12 @@
 Напишіть код, який за введеною сумою у форматі ххх грн уу коп за допомогою зрізів виведе окремо гривні та окремо копійки.
 """
 
-# sum_input = input('Введіть суму у форматі ххх грн уу коп: ')
-#
-# grn = sum_input[:3]
-# cop = sum_input[-2:]
-#
-# print('Грівень:', grn, 'Копійок:', cop)
+sum_input = input('Введіть суму у форматі ххх грн уу коп: ')
+
+grn = sum_input[:3]
+cop = sum_input[-2:]
+
+print('Грівень:', grn, 'Копійок:', cop)
 
 
 # Task_13
@@ -173,10 +173,10 @@
 вперше – у вихідному вигляді, вдруге – у зворотному порядку.
 """
 
-# letter_happ = input('Напишіть лист щастя: ')
-#
-# print(letter_happ)
-# print(letter_happ[::-1])
+letter_happ = input('Напишіть лист щастя: ')
+
+print(letter_happ)
+print(letter_happ[::-1])
 
 
 # Task_14
@@ -185,15 +185,15 @@
 Напишіть власну програму, що визначає мінімальне з двох введених з клавіатури чисел.
 """
 
-# firs_num = input('Введіть перше число: ')
-# sec_num = input('Введіть друге число: ')
-#
-# if firs_num < sec_num:
-#     print('Мінімальне число: ', firs_num)
-# elif firs_num > sec_num:
-#     print('Мінімальне число: ', sec_num)
-# else:
-#     print('Числа рівні спробуйте ще')
+firs_num = input('Введіть перше число: ')
+sec_num = input('Введіть друге число: ')
+
+if firs_num < sec_num:
+    print('Мінімальне число: ', firs_num)
+elif firs_num > sec_num:
+    print('Мінімальне число: ', sec_num)
+else:
+    print('Числа рівні спробуйте ще')
 
 
 # Task_15
